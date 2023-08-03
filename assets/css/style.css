@@ -303,3 +303,10 @@ hr {
   color: white;
   line-height: 2rem;
 }
+
+.footer__image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto; /* Optional margin for spacing */
+}
