@@ -1,32 +1,27 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat: ital,wght@0,100;0,400;0,500;0,700;1,900&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700;900&display=swap" rel="stylesheet">
   <title>Chervonnyy Anton</title>
 </head>
 
 <body>
-  <div class="intro">
-    <section class="section">
-      <div class="container">
-        <div class="intro__inner">
-          <h1 class="intro__title">Welcome to my page</h1>
-          <a class="btn" target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/chervonnyy">Chervonnyy
-            on LinkedIn</a>
-          <a class="btn" target="_blank" rel="noopener noreferrer" href="https://github.com/ChervonnyyAnton">Chervonnyy
-            on GitHub</a>
-          <a class="btn" target="_blank" rel="noopener noreferrer" href="https://t.me/anton_chervonnyy">Chervonnyy
-            in Telegram</a>
-        </div>
-      </div>
-    </section>
-  </div>
+  <header class="intro">
+    <div class="container">
+      <h1 class="intro__title">Welcome to my page</h1>
+      <nav class="intro__links">
+        <a class="btn" target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/chervonnyy">Chervonnyy on LinkedIn</a>
+        <a class="btn" target="_blank" rel="noopener noreferrer" href="https://github.com/ChervonnyyAnton">Chervonnyy on GitHub</a>
+        <a class="btn" target="_blank" rel="noopener noreferrer" href="https://t.me/anton_chervonnyy">Chervonnyy in Telegram</a>
+      </nav>
+    </div>
+  </header>
 
   <section class="section">
     <div class="container">
@@ -39,6 +34,15 @@
             is to improve my programming skills and demonstrate them to potential employers.</p>
         </div>
         <h2 class="section__header">Below are my subjective stats</h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__header">
+        <h3 class="section__title"></h3>
+        <h2 class="section__subtitle">My Career</h2>
       </div>
     </div>
   </section>
@@ -143,7 +147,7 @@
         </div>
         <div class="education__item">
           <div class="education__title">Step 6: Test Automation Engineer</div>
-          <div class="education__text">Right after Certification as a QA Engineer, I wanted to develop more technicaly and QA
+          <div class="education__text">Right after Certification as a QA Engineer, I wanted to develop more technically and QA
             Automation Engineer in JAVA was an Apple of my eye</div>
         </div>
       </div>
@@ -153,87 +157,70 @@
 
   <section class="section">
     <div class="container">
-      <div class="section__header">
-        <h3 class="section__title"></h3>
-        <h2 class="section__subtitle">My Career</h2>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="jobs">
-      <div class="container">
-        <div class="work">
-          <div class="work__item">
-            <div class="work__title">QA Engineer, Test Automation</div>
-            <div class="work__location">Österreichische Post AG, Vienna, Austria</div>
-            <div class="work__duration">since 04.2022</div>
-          </div>
-          <div class="work__description">
-            <div class="description__text">After a couple of month being manual software tester, I showed a professional
-              potential and was promoted to test automation engineer based on my QA and Programming skills</div>
-          </div>
+      <div class="work">
+        <div class="work__item">
+          <div class="work__title">QA Engineer, Test Automation</div>
+          <div class="work__location">Österreichische Post AG, Vienna, Austria</div>
+          <div class="work__duration">since 04.2022</div>
+        </div>
+        <div class="work__description">
+          <div class="description__text">After a couple of months being a manual software tester, I showed a professional
+            potential and was promoted to a test automation engineer based on my QA and programming skills</div>
         </div>
       </div>
     </div>
   </section>
 
   <section class="section">
-    <div class="jobs">
-      <div class="container">
-        <div class="work">
-          <div class="work__item">
-            <div class="work__title">Manual Tester</div>
-            <div class="work__location">Österreichische Post AG, Vienna, Austria</div>
-            <div class="work__duration">12.2021-04.2022</div>
-          </div>
-          <div class="work__description">
-            <div class="description__text">With a very big credit of trust based on my skills and knowledge, I was
-              welcomed
-              at Post AG as a junior software tester.</div>
-          </div>
+    <div class="container">
+      <div class="work">
+        <div class="work__item">
+          <div class="work__title">Manual Tester</div>
+          <div class="work__location">Österreichische Post AG, Vienna, Austria</div>
+          <div class="work__duration">12.2021-04.2022</div>
+        </div>
+        <div class="work__description">
+          <div class="description__text">With a very big credit of trust based on my skills and knowledge, I was
+            welcomed
+            at Post AG as a junior software tester.</div>
         </div>
       </div>
     </div>
   </section>
 
   <section class="section">
-    <div class="jobs">
-      <div class="container">
-        <div class="work">
-          <div class="work__item">
-            <div class="work__title">Senior QA Specialist</div>
-            <div class="work__location">Escape Game, Vienna, Austria</div>
-            <div class="work__duration">04.2020-09.2021</div>
-          </div>
-          <div class="work__description">
-            <div class="description__text">Started as a freelance offline logic game developer, I was able to recongize
-              some
-              points of improvement in a big entertainment company based in Germany with some locations in Austria.
-              After
-              one year, I became an official member of a team as a senior QA specialist. My field of responsiblity included
-              monitoring, controlling and improvement/fixing escape rooms to provide the same high quality experience to
-              customers at each of 27 locations in Germany and Austria.</div>
-          </div>
+    <div class="container">
+      <div class="work">
+        <div class="work__item">
+          <div class="work__title">Senior QA Specialist</div>
+          <div class="work__location">Escape Game, Vienna, Austria</div>
+          <div class="work__duration">04.2020-09.2021</div>
+        </div>
+        <div class="work__description">
+          <div class="description__text">Started as a freelance offline logic game developer, I was able to recognize
+            some
+            points of improvement in a big entertainment company based in Germany with some locations in Austria.
+            After
+            one year, I became an official member of a team as a senior QA specialist. My field of responsibility included
+            monitoring, controlling, and improvement/fixing escape rooms to provide the same high-quality experience to
+            customers at each of 27 locations in Germany and Austria.</div>
         </div>
       </div>
     </div>
   </section>
 
   <section class="section">
-    <div class="jobs">
-      <div class="container">
-        <div class="work">
-          <div class="work__item">
-            <div class="work__title">Hotel Manager</div>
-            <div class="work__location">Hotel 900m zur Oper, Vienna, Austria</div>
-            <div class="work__duration">09.2015-01.2020</div>
-          </div>
-          <div class="work__description">
-            <div class="description__text">As a night auditor, I was promoted to the front desk administrator after a
-              couple of years being in charge of Reception. As a Hotel Manager, I was responsible for quality of service,
-              human resouces, shift audition and staff coaching.</div>
-          </div>
+    <div class="container">
+      <div class="work">
+        <div class="work__item">
+          <div class="work__title">Hotel Manager</div>
+          <div class="work__location">Hotel 900m zur Oper, Vienna, Austria</div>
+          <div class="work__duration">09.2015-01.2020</div>
+        </div>
+        <div class="work__description">
+          <div class="description__text">As a night auditor, I was promoted to the front desk administrator after a
+            couple of years being in charge of Reception. As a Hotel Manager, I was responsible for the quality of service,
+            human resources, shift audition, and staff coaching.</div>
         </div>
       </div>
     </div>
@@ -242,19 +229,17 @@
   <section class="section">
     <div class="footer">
       <div class="container">
-        <div class="info">
-          <div class="info__item">
-            <div class="info__copyright">All rights reserved by Anton Chervonnyy</div>
+        <div class="footer__image">
+          <img src="files/IMG_2960.HEIC" alt="Profile Image">
+        </div>
+        <div class="footer__info">
+          <div class="footer__copyright">
+            All rights reserved by Anton Chervonnyy
           </div>
-          <div class="info__item">
-            <div class ="download">
-              <a class="btn" href="files/Table.xlsx" download>
-                <span>
-                  Download File
-                </span>
-              </a>
-            </div>
-
+          <div class="footer__download">
+            <a class="btn" href="files/Table.xlsx" download>
+              <span>Download File</span>
+            </a>
           </div>
         </div>
       </div>
@@ -262,4 +247,5 @@
   </section>
 
 </body>
+
 </html>
